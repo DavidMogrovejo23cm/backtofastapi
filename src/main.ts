@@ -8,6 +8,7 @@ async function bootstrap() {
     origin: 'http://localhost:4200', // permite Angular
     credentials: true, // si usas cookies o headers personalizados
   });
+  
 
   await app.listen(3000);
 }
